@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+<form action="results.html" method="post" enctype="multipart/form-data">
+<div>
+     <label for="voornaam">Voornaam</label>
+     <input type="text" name="voornaam" id="voornaam" required >
+</div>
+<div>
+    <label for="Achternaam">Achternaam</label>
+    <input type="text" name="voornaam" id="voornaam" >
+</div>
+<div>
+    <label for="Geslacht">Geslacht</label>
+    <select name="plan" id="plan">
+        <option value="none" selected disabled hidden>Man</option>
+        <option value="Man">Man</option>
+        <option value="Vrouw">Vrouw </option>
+    </select>
+</div>
+
+<div><label for="Straat met huisnummer">Straat met huisnummer</label>
+<input type="text" required>
+</div>
+<div>
+    <label for="Postcode">Postcode</label>
+    <input type="text" name="Postcode">
+</div>
+<div>
+    <label for="Stad">Stad</label>
+    <input type="text">
+    <label for="Land">Land</label>
+    <input type="text" name="Land">
+</div>
+<div>
+    <label for="BSN-nummer">BSN-nummer</label>
+    <input type="text" maxlength ="9">
+</div>
+
+<div>
+    <div>
+        Vakantie land
+    </div>
+    <label for="Nederland">Nederland</label>
+    <input type="radio" name="Vakantie land" >
+    <div>
+        <label for="Polen">Polen</label>
+        <input type="radio" name="Vakantie land" >
+    </div>
+</div>
+
+<div>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required>
+</div>
+<div>
+    <label for="Aantal reisgenoten">Aantal reisgenoten</label>
+    <input type="number" name="Aantal reisgenoten" id="Aantal reisgenoten" min="1" max="4" step="1">
+</div>
+<div>
+    <label for="Vertrek datum">Vertrek datum</label>
+    <input type="date" name="Vertrek datum" min="2023-09-16">
+</div>
+<div>
+    <label for="Terug komst datum">Terug komst datum</label>
+    <input type="date" name="Terug komst datum" min="2023-09-16">
+</div>
+
+<div>
+     <label>Wachtwoord</label>
+     <input type="password" name="Wachtwoord" required >
+</div>
+<button type="reset">Reset</button>
+<button type="Boek nu">Boek nu</button> 
+
+</form>
+
+</body>
+</html>
