@@ -1,0 +1,43 @@
+ {index.html}
+ header{
+  background-image:url(img/splatloading3.webp) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 33vh;
+ }
+  h1 {color: black;
+    font-size:24px;
+    font-style: italic;
+    font-weight: bold;
+    
+  }
+
+    h2{font-size:20px;
+       color: #0000ff;
+       font-weight: bold;}
+
+    h3{ font-size: 16px;
+        color:teal;
+        font-weight: bold;}
+
+    p{ color: #4d4d4d; }
+
+article{border-style: solid solid solid solid;
+border-left-width: 9px;
+border-color:#636cdd ;
+border-radius: 10px;
+}
+
+    .one{font-weight: bold;
+    color: black;
+    border-style: none;}
+    
+   img{width: 50vw;}
+
+   
+
+    a{text-decoration: none}
+      
+    corder:colappse: 
+    bg no repeat
