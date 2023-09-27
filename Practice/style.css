@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+position: fixed;
+top: 0;
+width: 100vw;
+height: 5vh;
+left: 0;
+background-color: wheat;
+}
+
+footer{
+    background-color: pink;
+    height: 5vh;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    left: 0;
+}

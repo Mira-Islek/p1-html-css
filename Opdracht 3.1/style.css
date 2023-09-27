@@ -8,12 +8,15 @@ html {
   font-size: 62.5%;
 }
 body {
-  
+    min-height: 100vh;
+    position: relative;
   font-family: "Goldman", cursive;
+
 }
 h1{
   font-family: "Goldman", cursive;
   font-weight: bold;
+  text-align: center;
 }
 
 nav {
@@ -26,6 +29,8 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
 }
 nav ul {
   display: flex;
@@ -42,6 +47,10 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+
+main{
+  margin-top: 11rem;
 }
 
 .INDEX{
@@ -69,6 +78,12 @@ footer{
   background: #00a8c7;
   height: 10vh;
   color: white;
+position: absolute;
+width: 100vw;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+img{
   
 }
-<link rel="stylesheet" href="/Goldman/Goldman-Regular.ttf">
