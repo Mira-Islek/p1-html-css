@@ -2,12 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: ;
 }
 html {
   font-size: 62.5%;
 }
 body {
+  
   font-family: "Goldman", cursive;
+}
+h1{
+  font-family: "Goldman", cursive;
+  font-weight: bold;
 }
 
 nav {
@@ -37,3 +43,32 @@ nav a {
 nav img {
   width: 5vw;
 }
+
+.INDEX{
+  background-image:url(img/background.jpeg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100vw;
+  color:white;
+}
+.sql{
+  background-color: black;
+  height: 90vh;
+  width: 100vw;
+  color: white;
+}
+.Java{
+  background-color: black;
+  height: 90vh;
+  width: 100vw;
+  color: white;
+}
+
+footer{
+  background: #00a8c7;
+  height: 10vh;
+  color: white;
+  
+}
+<link rel="stylesheet" href="/Goldman/Goldman-Regular.ttf">
