@@ -112,3 +112,36 @@ p{
   float:right;
   width: 50%;
 }
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #00a8c7;
+}
+li {
+  float:right ;
+
+}
+li a{
+  color: white;
+  text-decoration: none;
+ display: inline-block;
+ 
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#E9E9E9 ;
+  color: #00a8c7;
+  min-width: 20vw;
+  z-index: 1;
+
+}
+.dropdown-content a{
+  color: #00a8c7;
+  display: block;
+  text-align: right;
+  padding: 0.8rem 1rem;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
