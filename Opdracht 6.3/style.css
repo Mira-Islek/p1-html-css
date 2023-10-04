@@ -1,0 +1,19 @@
+nav{
+    color: blue;
+    display: flex;
+}
+.Logo{
+    display: flex;
+    width: 25vw;
+    justify-content: center;
+}
+.login{
+    display: flex;
+    width: 25vw;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    width: 50vw;
+    justify-content: space-around;
+}
