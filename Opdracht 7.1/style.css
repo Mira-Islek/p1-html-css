@@ -1,0 +1,55 @@
+
+h1{
+    background-color: red;
+}
+@media screen and (min-width: 400px) {
+    h1 {
+      background-color: blue;
+    }
+  }
+
+@media screen and (min-width: 800px) {
+    h1 {
+      background-color: rgb(123, 123, 226);
+    }
+  }
+.no1{background-color: yellow;}
+
+@media screen and (min-width: 400px) {
+    .no1 {
+      background-color: cyan;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    .no1 {
+      background-color: red;
+    }
+  }
+
+.no2{background-color: orange;}
+
+@media screen and (min-width: 400px) {
+    .no2 {
+      background-color: rgb(228, 22, 146);
+    }
+  }
+  @media screen and (min-width: 800px) {
+    .no2 {
+      background-color: blue;
+    }
+  }
+
+.no3{background-color: green;}
+
+@media screen and (min-width: 400px) {
+    .no3 {
+      background-color: rgb(73, 59, 105);
+    }
+  }
+
+@media screen and (min-width: 800px) {
+    .no3 {
+      background-color: rgb(68, 23, 173);
+    }
+  }
+   
